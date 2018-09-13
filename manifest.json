@@ -1,0 +1,6 @@
+{
+    "name": "Instagantt Link in Asana",
+    "version": "1.0",
+    "description": "Adds a link to Instagantt from Asana",
+    "manifest_version": 1
+}
