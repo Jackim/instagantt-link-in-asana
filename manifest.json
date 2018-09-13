@@ -1,6 +1,12 @@
 {
-    "name": "Instagantt Link in Asana",
-    "version": "1.0",
-    "description": "Adds a link to Instagantt from Asana",
-    "manifest_version": 1
+  "name": "Instagantt Link in Asana",
+  "version": "1.0",
+  "description": "Adds a link to Instagantt from Asana",
+  "manifest_version": 1,
+  "content_scripts": [
+    {
+      "matches": ["https://app.asana.com/*"],
+      "js": ["main.js"]
+    }
+  ]
 }
